@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Perf =props=>{
+const Perftable =props=>{
     let companies = props.companies;
 
     let rows = companies.map((company)=>{
@@ -38,4 +38,4 @@ const Perf =props=>{
     
     
 }
-export default Perf;
+export default Perftable;

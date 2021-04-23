@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Perf from './perftable'
+import Perf from './Perftable'
 
 const PerformanceComponent = props => {
         const [comp1,setComp1] =useState()
